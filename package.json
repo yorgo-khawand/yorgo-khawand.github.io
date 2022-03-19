@@ -1,25 +1,22 @@
 {
-  "name": "mylinks",
+  "name": "jeankhawand.github.io",
   "version": "1.0.0",
-  "private": true,
+  "main": "index.js",
+  "repository": "git@github.com:jeankhawand/jeankhawand.github.io.git",
+  "author": "Jean Khawand <22157081+jeankhawand@users.noreply.github.com>",
+  "license": "MIT",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "framer-motion": "^4.1.17",
-    "node": "^14.4.0",
+    "framer-motion": "^6.2.8",
+    "node": "^17.7.1",
     "react": "^17.0.2",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^4.0.3"
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
