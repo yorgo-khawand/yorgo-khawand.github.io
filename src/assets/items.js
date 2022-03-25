@@ -2,6 +2,7 @@ import blog from "../assets/blog.jpg";
 import github from "../assets/github.jpg";
 import linkedin from "../assets/linkedin.jpg";
 import matrix from "../assets/matrix.jpg";
+import calendly from "../assets/calendly.jpg";
 const items = [
   {
     title: "GitHub",
@@ -27,6 +28,12 @@ const items = [
     subtitle: "Reach me on Matrix network ",
     image: matrix,
     link: "https://matrix.to/#/@jean:tchncs.de",
+  },
+  {
+    title: "Calendly",
+    subtitle: "Let's Discuss",
+    image: calendly,
+    link: "https://calendly.com/jeankhawand",
   },
 ];
 
