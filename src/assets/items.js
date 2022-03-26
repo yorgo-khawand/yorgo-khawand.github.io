@@ -6,7 +6,7 @@ import calendly from "../assets/calendly.jpg";
 const items = [
   {
     title: "GitHub",
-    subtitle: "Check out ! my open source projects",
+    subtitle: "Check out my open source projects",
     image: github,
     link: "https://github.com/jeankhawand",
   },
@@ -25,13 +25,13 @@ const items = [
   },
   {
     title: "Matrix",
-    subtitle: "Reach me on Matrix network ",
+    subtitle: "Reach me on Matrix network",
     image: matrix,
     link: "https://matrix.to/#/@jean:tchncs.de",
   },
   {
     title: "Calendly",
-    subtitle: "Let's Discuss",
+    subtitle: "Let's discuss",
     image: calendly,
     link: "https://calendly.com/jeankhawand",
   },
