@@ -32,11 +32,9 @@ const IndexPage = () => {
           <div className="w-full px-10 py-2 flex justify-center">
             <div className="relative">
               <img
-              width='120'
-              height='120'
                 alt="Jean Khawand"
                 src="/images/profile.png"
-                className="rounded-full"
+                className="rounded-full max-w-full h-auto w-32 h-32"
               />
             </div>
           </div>
