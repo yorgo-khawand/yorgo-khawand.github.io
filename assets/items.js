@@ -1,38 +1,33 @@
-import blog from "../assets/blog.jpg";
-import github from "../assets/github.jpg";
-import linkedin from "../assets/linkedin.jpg";
-import matrix from "../assets/matrix.jpg";
-import calendly from "../assets/calendly.jpg";
 const items = [
   {
     title: "GitHub",
     subtitle: "Check out my open source projects",
-    image: github,
+    icon: "fa-code-pull-request",
     link: "https://github.com/jeankhawand",
   },
 
   {
     title: "LinkedIn",
     subtitle: "Connect with me",
-    image: linkedin,
+    icon: "fa-briefcase",
     link: "https://www.linkedin.com/in/jeankhawand",
   },
   {
     title: "Blog",
     subtitle: "Read my latest posts",
-    image: blog,
+    icon: "fa-pen",
     link: "https://blog.jeankhawand.com",
   },
   {
     title: "Matrix",
     subtitle: "Reach me on Matrix network",
-    image: matrix,
+    icon: "fa-comment",
     link: "https://matrix.to/#/@jean:tchncs.de",
   },
   {
     title: "Calendly",
     subtitle: "Let's discuss",
-    image: calendly,
+    icon: "fa-calendar",
     link: "https://calendly.com/jeankhawand",
   },
 ];

@@ -1,11 +1,6 @@
-import React from "react";
-
-import "../css/skeleton.css";
-import "../css/normalize.css";
-import "../css/components.css";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-function Card(props) {
+import Link from 'next/link';
+const SocialLink = (props) => {
   const variants = {
     visible: (i) => ({
       opacity: 1,
@@ -21,22 +16,22 @@ function Card(props) {
     hidden: { opacity: 0, y: 200 },
   };
   return (
-    <Link to={props.title.toLowerCase()} target="_blank">
+    
+    <Link href={props.link} target="_blank">
       <motion.div
-        className="Card four columns"
+        className="py-2"
         initial="hidden"
         animate="visible"
         custom={props.i}
         variants={variants}
       >
-        <img className="cover" src={props.cover} alt={props.title}></img>
-        <div className="data">
-          <h2>{props.title}</h2>
-          <p>{props.subtitle}</p>
-        </div>
+          <a className={`bg-black px-4 w-full py-3 font-semibold text-white inline-flex items-center space-x-5 rounded`}>
+          <i className={`fas ${props.icon} text-white`}></i>
+        <span>{props.title}</span>
+    </a>
       </motion.div>
     </Link>
   );
 }
 
-export default Card;
+export default SocialLink;
