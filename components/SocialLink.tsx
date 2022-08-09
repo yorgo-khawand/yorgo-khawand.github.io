@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Link from 'next/link';
+import ReactGA from 'react-ga';
 const SocialLink = (props) => {
   const variants = {
     visible: (i) => ({
@@ -15,6 +16,15 @@ const SocialLink = (props) => {
     }),
     hidden: { opacity: 0, y: 200 },
   };
+  const trackEvent = (event, props) => {
+    event.preventDefault();
+    ReactGA.event({
+      category: props.title,
+      action: 'Click',
+      label: 'SocialButton'
+    })
+    window.location.href = props.link;
+  }
   return (
     
     <Link href={props.link} target="_blank">
@@ -25,9 +35,9 @@ const SocialLink = (props) => {
         custom={props.i}
         variants={variants}
       >
-          <a className={`bg-black px-4 w-full py-3 font-semibold text-white inline-flex items-center space-x-5 rounded`}>
-          <i className={`fas ${props.icon} text-white`}></i>
-        <span>{props.title}</span>
+          <a onClick={(e)=>trackEvent(e,props)} className={`bg-white border-black border-2 hover:bg-black  px-5 w-full py-3 grow font-semibold text-black hover:text-white inline-flex content-center justify-center items-center space-x-5 rounded-full`}>
+          <i className={`fas ${props.icon}`}></i>
+          <span>{props.title}</span>
     </a>
       </motion.div>
     </Link>
