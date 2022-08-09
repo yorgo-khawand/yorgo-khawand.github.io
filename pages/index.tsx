@@ -1,29 +1,34 @@
 
 import items from "../assets/items"
+import schema from "../assets/schema"
 import Head from 'next/head';
 import SocialLink from '../components/SocialLink';
 const IndexPage = () => {    
    return ( 
 <>
 <Head>
-        <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
-        <meta name="google" content="notranslate" key="notranslate" />
         <link rel="manifest" href="/manifest.json"/>
         <meta name="msapplication-TileColor" content="#ffffff"/>
         <meta name="theme-color" content="#ffffff"/>
+        <meta name="monetization" content="$ilp.uphold.com/AP3WxENXk6jn"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Jean Khawand</title>
-        <meta name="description" content="Jean Khawand Links"/>
+        <meta name="description" content="Jean's Links"/>
         <meta property="og:url" content="https://www.jeankhawand.com"/>
+        <meta property='og:image' content='images/og-image.png'/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Jean Khawand"/>
-        <meta property="og:description" content="Jean Khawand"/>
+        <meta property="og:description" content="Jean's Links"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta property="twitter:domain" content="https://www.jeankhawand.com"/>
         <meta property="twitter:url" content="https://www.jeankhawand.com"/>
         <meta name="twitter:title" content="Jean Khawand"/>
         <meta name="twitter:description" content="Jean Khawand"/>
 </Head>
+<script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
 <section className="pt-16 bg-blueGray-50">
   <div className="w-full lg:w-4/12 px-4 mx-auto">
     <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg mt-16">
