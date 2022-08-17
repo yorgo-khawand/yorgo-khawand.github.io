@@ -12,18 +12,18 @@ const IndexPage = () => {
         <meta name="theme-color" content="#ffffff"/>
         <meta name="monetization" content="$ilp.uphold.com/AP3WxENXk6jn"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Jean Khawand</title>
-        <meta name="description" content="Jean's Links"/>
-        <meta property="og:url" content="https://www.jeankhawand.com"/>
+        <title>Yorgo Khawand</title>
+        <meta name="description" content="Yorgo's Links"/>
+        <meta property="og:url" content="https://yorgo.eu.org"/>
         <meta property='og:image' content='images/og-image.png'/>
         <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Jean Khawand"/>
-        <meta property="og:description" content="Jean's Links"/>
+        <meta property="og:title" content="Yorgo Khawand"/>
+        <meta property="og:description" content="Yorgo's Links"/>
         <meta name="twitter:card" content="summary_large_image"/>
-        <meta property="twitter:domain" content="https://www.jeankhawand.com"/>
-        <meta property="twitter:url" content="https://www.jeankhawand.com"/>
-        <meta name="twitter:title" content="Jean Khawand"/>
-        <meta name="twitter:description" content="Jean Khawand"/>
+        <meta property="twitter:domain" content="https://yorgo.eu.org"/>
+        <meta property="twitter:url" content="https://yorgo.eu.org"/>
+        <meta name="twitter:title" content="Yorgo Khawand"/>
+        <meta name="twitter:description" content="Yorgo Khawand"/>
 </Head>
 <script
         type="application/ld+json"
@@ -37,7 +37,7 @@ const IndexPage = () => {
           <div className="w-full px-10 py-2 flex justify-center">
             <div className="relative">
               <img
-                alt="Jean Khawand"
+                alt="Yorgo Khawand"
                 src="/images/profile.png"
                 className="rounded-full max-w-full h-auto w-32 h-32"
               />
@@ -46,19 +46,19 @@ const IndexPage = () => {
         </div>
         <div className="text-center mt-5">
           <h3 className="text-xl font-semibold leading-normal text-blueGray-700 mb-2">
-            Jean Khawand
+            Yorgo Khawand
           </h3>
           <div className="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase">
             <i className="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400" />
-            Paris, France
+            Beirut, Lebanon
           </div>
           <div className="mb-2 text-blueGray-600 mt-2">
             <i className="fas fa-briefcase mr-2 text-lg text-blueGray-400" />
-            Software Engineer
+            Software Developer
           </div>
           <div className="mb-2 text-blueGray-600 mt-2">
             <i className="fas fa-message-quote mr-2 text-lg text-blueGray-400" />
-            Changing the status quo 🚀
+            ``~Software is a great combination between artistry and engineering 🔥``
           </div>
         </div>  
         <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
