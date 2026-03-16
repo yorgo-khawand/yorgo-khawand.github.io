@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 const role = "Cybersecurity Specialist";
 
@@ -125,11 +126,14 @@ export default function HomePage() {
             <div className="w-full max-w-sm">
               <div className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-2xl shadow-cyan-950/30 backdrop-blur">
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src="/images/profile.png"
                     alt="Yorgo Khawand"
-                    className="h-20 w-20 rounded-2xl border border-white/10 object-cover"
-                  />
+                    width={160}
+                    height={160}
+                    unoptimized
+                     className="h-20 w-20 rounded-2xl border border-white/10 object-cover"
+                   />
                   <div>
                     <p className="text-sm text-slate-400">Focused on</p>
                     <p className="text-lg font-semibold text-white">Cybersecurity growth</p>
