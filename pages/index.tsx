@@ -108,19 +108,19 @@ export default function HomePage() {
                 <span className="rounded-full border border-white/10 px-3 py-1">Security projects</span>
                 <span className="rounded-full border border-white/10 px-3 py-1">Continuous learning</span>
               </div>
-               <div className="mt-8 flex flex-wrap gap-4">
-                {socialLinks.map((item) => (
+              <div className="mt-8 flex flex-wrap gap-4">
+              {socialLinks.map((item) => (
                 <a
-                key={item.label}
-                href={item.href}
-                target={item.href.startsWith("http") ? "_blank" : undefined}
-                rel="noreferrer"
-                className="rounded-xl border border-white/10 bg-white/5 px-5 py-3 text-sm font-semibold text-white transition hover:border-cyan-300 hover:bg-cyan-400/10"
+                  key={item.label}
+                  href={item.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-xl border border-white/10 bg-white/5 px-5 py-3 text-sm font-semibold text-white transition hover:border-cyan-300 hover:bg-cyan-400/10"
                 >
-                {item.label}
-              </a>
-             ))}
-             </div>
+                  {item.label}
+                </a>
+              ))}
+            </div>
             </div>
 
             <div className="w-full max-w-sm">
