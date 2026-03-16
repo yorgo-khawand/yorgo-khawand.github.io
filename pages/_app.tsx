@@ -1,8 +1,7 @@
-import '../styles/global.css'
-import ReactGA from 'react-ga'
+import "../styles/global.css";
+
 function MyApp({ Component, pageProps }) {
-  ReactGA.initialize('G-50STDJJJBG')
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;

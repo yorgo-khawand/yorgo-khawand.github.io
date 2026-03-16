@@ -1,9 +1,9 @@
 {
-  "name": "jeankhawand.github.io",
+  "name": "yorgo-portfolio",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:jeankhawand/jeankhawand.github.io.git",
-  "author": "Jean Khawand <22157081+jeankhawand@users.noreply.github.com>",
+  "repository": "https://github.com/yorgo-khawand/yorgo-khawand.github.io.git",
+  "author": "Yorgo Khawand",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.2",
