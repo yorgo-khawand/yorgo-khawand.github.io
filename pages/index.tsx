@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const role = "Cybersecurity Specialist";
+const role = "Cybersecurity Analyst";
 
 const socialLinks = [
   {
